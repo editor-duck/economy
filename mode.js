@@ -24,7 +24,9 @@ function darkLightHandler(self){
       Body.setBodyColor('white');
       Body.setBGBodyColor('black');
       document.querySelector('ol').style.color = 'white';
+      document.querySelector('ol').style.borderRightColor = 'white';
       document.querySelector('img').style.filter = 'invert(100%)';
+      document.querySelector('h1').style.borderBottomColor='white';
       self.value ='light';
       self.style.color = 'white';
       self.style.backgroundColor = 'black';
@@ -36,8 +38,9 @@ function darkLightHandler(self){
       Body.setBodyColor('black');
       Body.setBGBodyColor('white');
       document.querySelector('ol').style.color = 'black';
-      document.querySelector('a').style.color = 'black';
+      document.querySelector('ol').style.borderRightColor = 'black';
       document.querySelector('img').style.filter = 'invert(0%)';
+      document.querySelector('h1').style.borderBottomColor='black';
       self.value ='dark';
       self.style.color = 'black';
       self.style.backgroundColor = 'white';
