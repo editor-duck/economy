@@ -2,39 +2,16 @@
 <html>
 <head>
   <title>자본주의</title>
-  <style>
-    #grid{
-      display:grid;
-      grid-template-columns:180px 1fr;
-    }
-    body{
-      margin:0;
-    }
-    h1{
-      font-size:400%;
-      border-bottom: 3px solid black;
-      text-align: center;
-      margin: 0;
-    }
-    ol{
-      border-right: 3px solid black;
-      width: 150px;
-      margin-top:0;
-      padding:5px;
-      padding-left: 20px;
-
-    }
-    a{
-      color:black;
-      text-decoration: none;
-    }
-
-  </style>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="mode.js"></script>
 </head>
 
 <body>
   <h1><a href="capitalism.html">자본주의</a></h1>
+  <input id="darkLightHandler" type='button' value="dark" onclick="
+        darkLightHandler(this);
+  ">
   <div id="grid">
     <ol>
       <li><a href="rrs.html">지급준비제도</a></li>
@@ -42,10 +19,10 @@
       <li><a href="mp aftereffect.html">대량생산의 여파</a></li>
         <ul><a href="purchasing power.html">구매력 상승</a></ul>
         <ul><a href="unemployment.html">대량실업 발생</a></ul>
-      <li><a href="new market.html">새로운 시장 형성 </a></li>
+      <li><a href="new market.html">새로운 시장 형성</a></li>
     </ol>
 
-    <div>
+    <div class='contents'>
       <h3>자본주의</h3>
       <img width="100%" src="capitalism.jpg">
       <p><strong>자본주의와 시장경제와는 다르다</strong>
@@ -74,4 +51,5 @@
       </p>
     </div>
   </div>
+  <a href="ex1.html">연습</a>
   </body>
